@@ -14,9 +14,10 @@ the sql query is uploaded
 
 # Third: Evaluate Data Quality Issues in the Data Provided
 The query needs to be run in Microsoft sql server 2019.
-I replaced the linebreaks with a comma and enclosed all the contents on the receipts.json file within "[" and "]" I flattened the receipts.json using the functinos in sql server.  
-looked for missing data. couldn't identify any missing data that could be an error.   
-looked for dates to make sure that lined up.   
+I replaced the linebreaks with a comma and enclosed all the contents on the receipts.json file within "[" and "]"  
+I then flattened the receipts.json using the json functions in sql server.  
+I looked for missing data. couldn't identify any missing data that could be an error.   
+I looked at the dates fields to make sure that lined up.   
   found that for 13 receipts, the dateScanned was before the datePurchased.  
 
 
