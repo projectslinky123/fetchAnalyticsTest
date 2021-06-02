@@ -2,7 +2,7 @@
 
 # First:Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
 I left out some of the fields(like the metabrite). would need more info before adding it to the model  
-I uploaded the pdf of the model (the pdf output pnly has 2 pages that are filled in)  
+I uploaded the pdf of the model (the pdf output only has 2 pages that are filled in)  
 The file "mysql_workbench_model diagram" was created using mysql workbench  
 
 
