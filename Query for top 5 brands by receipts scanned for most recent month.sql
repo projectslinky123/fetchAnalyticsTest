@@ -13,7 +13,7 @@ where dateScanned between @startDate and @enddate
 group by b.brandId, b.name, b.brandCode
 order by 4 desc
 
-/*** Assumed most recent month mean the current partial month and not the most recent full month.  ***/
+/*** Assumed most recent month meant the current partial month and not the most recent full month.  ***/
 
 /**** to ask the user who is goign to use the query that the receipts scanned is really what they want. 
 	since a person can scan the receipt months(assuming) after purchase, which could scew the results based on what analysis they were doing  */ 
