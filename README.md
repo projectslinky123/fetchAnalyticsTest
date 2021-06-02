@@ -18,7 +18,7 @@ I replaced the linebreaks with a comma and enclosed all the contents on the rece
 I then flattened the receipts.json using the json functions in sql server.  
 I looked for missing data. couldn't identify any missing data that could be an error.   
 I looked at the dates fields to make sure that lined up.   
-  found that for 13 receipts, the dateScanned was before the datePurchased.  
+  found 13 receipts where the dateScanned was before the datePurchased.  
 
 
 
@@ -29,7 +29,7 @@ What questions do you have about the data?
   
 How did you discover the data quality issues?  
   I looked to see if there were any dates out of order.  
-  Found that for the about 13 of the 1119 receipts, the datescanned was before the date purchased which may need further reveiw.  
+  Found that for about 13 of the 1119 receipts, the datescanned was before the date purchased which may need further reveiw.  
     * The number of errored receipts small and the error is likely immaterial for most analysis. But may need to look at cause  
     
 What do you need to know to resolve the data quality issues?  
